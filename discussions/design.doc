@@ -1,0 +1,59 @@
+// NOTE: This template is to be used for partner practice ONLY! You must
+// use the required Algorithmic Design Document for all Assignments.
+
+SAMPLE RUN:
+This program will calculate the total cost to drive 20, 75, and 500 miles using the mpg for a vehicle and price/gallon of fuel.
+
+Enter the mpg rating for your car: 
+(user inputs value)
+Ex. 25
+
+Enter the price per gallon for gas: 
+(user inputs value)
+Ex. 3.00
+
+It will cost:
+2.40 dollars to travel 20 miles
+9.00 dollars to travel 75 miles
+60 dollars to travel 500 miles
+
+
+===========================================================
+DESIGN:
+
+a) Inputs
+double milesPerGallon
+double pricePerGallon
+
+-----------------------------------------------------------
+b) Outputs
+double costFor20Miles, double costFor75Miles, double costFor500Miles
+
+-----------------------------------------------------------
+c) Calculations
+
+costFor20miles = (20 / milesPerGallon) * (pricePerGallon)
+costFor75Miles = (75 / milesPerGallon) * (pricePerGallon)
+costFor500Miles = (500 / milesPerGallon) * (pricePerGallon)
+-----------------------------------------------------------
+d) Pseudocode
+DECLARE double milesPerGallon
+DECLARE double pricePerGallon
+
+DECLARE double costFor20Miles
+DECLARE double costFor75Miles
+DECLARE double costFor500Miles
+
+DISPLAY "This program will calculate the total cost to drive 20 miles, 75 miles, and 500 miles"
+
+DISPLAY "Enter the mpg rating for your car: "
+INPUT milesPerGallon
+
+DISPLAY "Enter the price per gallon for gas: "
+INPUT pricePerGallon
+
+SET costFor20Miles = (20 / milesPerGallon) * (pricePerGallon)
+SET costFor75Miles = (75 / milesPerGallon) * (pricePerGallon)
+SET costFor500Miles = (500 / milesPerGallon) * (pricePerGallon)
+
+DISPLAY "It will cost " costFor20Miles " dollars to travel 20 miles, " costFor75Miles " dollars to travel 75 Miles, and " costFor500Miles " dollars to travel 500 miles."

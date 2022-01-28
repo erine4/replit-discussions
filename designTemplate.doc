@@ -1,0 +1,44 @@
+// NOTE: This template is to be used for partner practice ONLY! You must
+// use the required Algorithmic Design Document for all Assignments.
+
+SAMPLE RUN:
+
+Please enter your name: Jose
+Please enter your age this year: 26
+
+Hello Jose! You were born in 1994!
+
+===========================================================
+DESIGN:
+
+a) Inputs
+
+name as a string
+age as an integer
+
+-----------------------------------------------------------
+b) Outputs
+
+birth year as an integer
+
+-----------------------------------------------------------
+c) Calculations
+
+birth year = 2021 - age
+
+-----------------------------------------------------------
+d) Pseudocode
+
+DECLARE String name
+DECLARE Integer age
+DECLARE Integer birthYear
+
+DISPLAY "Please enter your name: "
+INPUT name
+
+DISPLAY "Please enter your age: "
+INPUT age
+
+SET birthYear = 2021 - age
+
+DISPLAY "Hello ", name, "! You were born in ", birthYear, "!"
